@@ -1,0 +1,17 @@
+package com.mycompany.pertemuanpertama;
+
+public class PertemuanPertama {
+
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+        System.out.print("hallo semua");
+        
+        
+        // pertemuan pertama 
+        /*pertemuan perdana
+        untuk println untuk di bawah
+        sedangkan print untuk di sampingg
+        */
+      
+    }
+}
