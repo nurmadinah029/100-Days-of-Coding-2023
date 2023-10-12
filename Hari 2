@@ -1,0 +1,42 @@
+package com.mycompany.hari2;
+
+public class Hari2 {
+
+    public static void main(String[] args) {
+        System.out.println("assalamu alaikum wr.wb");
+        //TYPE DATA primitif 
+        String nama = "nurmadinah";
+        char jk = 'P';
+        int umur = 17;
+        short angka1 = 1;
+        long angka2 =2;
+        byte angka3 = 3;
+        float angka4 = 4.3f;
+        double angka5 = 5.2;
+        boolean status = true;
+        System.out.println(" nama saya adalah " + nama + " saya sekarang berumur  = " + umur);
+        
+        //belajar ajah dulu
+        System.out.println("silahkan kerjakan matematika di bawa ini");
+        int a,b,c,d,e,f,g;
+        
+        a = 10;
+        b = 5;
+        c = a+b;
+        d = a-b;
+        e = a*b;
+        f = a/b;
+        g = a%b;
+        
+        System.out.println("hasil dari " +a+ "+" +b+"="+c );
+        System.out.println("hasil dari " +a+ "-" +b+"="+d );
+        System.out.println("hasil dari " +a+ "*" +b+"="+e );
+        System.out.println("hasil dari " +a+ "/" +b+"="+f );
+        System.out.println("hasil dari " +a+ "mod" +b+"="+g);
+
+
+       
+        
+        
+    }
+}
