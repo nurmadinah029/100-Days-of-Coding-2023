@@ -1,0 +1,22 @@
+package com.mycompany.hari3;
+
+public class Hari3 {
+
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+        
+        int operan1 = 97;
+        int operan2 = 67;
+        
+        /*
+        *demostrasi penggunaan logika AND, hasilnya akan true
+        *karena oprand tersebut bernilai true
+        */
+        boolean test1 = operan1 > 20 && operan2 <= 100;
+        System.out.println(test1);
+
+        
+        
+        
+    }
+}
