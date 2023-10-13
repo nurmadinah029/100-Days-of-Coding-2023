@@ -1,0 +1,25 @@
+package ISC;
+
+
+public class Hari4 {
+    
+    public static void main(String[] args) {
+        int nilai1 = 30;
+        int nilai2 = 20;
+        int nilai3 = 30;
+        
+        
+        System.out.println(" Nilainya adalah " + (nilai1 > nilai2));
+        System.out.println(" Nilainya adalah " + (nilai3 == nilai1));
+        System.out.println(" Nilainya adalah " + (nilai1 < nilai2));
+        System.out.println(" Nilainya adalah " + (nilai1 <= nilai3));
+        System.out.println(" Nilainya adalah " + (nilai3 >= nilai2));
+        System.out.println(" Nilainya adalah " + (nilai3 != nilai2));
+
+                
+      
+     
+       
+            }
+        
+        }
