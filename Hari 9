@@ -1,0 +1,22 @@
+package ISC;
+
+
+public class Hari9 {
+    public static void main(String[] args) {
+        int BilanganNumber = 20;
+        if (BilanganNumber > 0){
+            
+System.out.println("bilangan positif");
+        
+        } else if (BilanganNumber < 0) {
+
+System.out.println("bilangan negatif ");
+        }else{
+            
+            
+            
+        
+        }
+    }
+    
+}
