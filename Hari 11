@@ -1,0 +1,11 @@
+package seratushari;
+
+public class day10 {
+    public static void main(String[] args) {
+        byte umur_saya = 18 ;
+        short jumlah_saudara = 3;
+        int jaji_bulanan = 500000;
+        long jumlahSiswa = 27;
+        System.out.println("usia\t\t\t : "+umur_saya+"\njumlah saudara saya\t : "+jumlah_saudara+"\ngaji saya\t\t : "+jaji_bulanan+"\nsiswa dalam kelas\t : "+jumlahSiswa);
+    }
+}
