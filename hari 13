@@ -1,0 +1,17 @@
+package ISC;
+
+import java.util.Scanner;
+
+public class Hari13 {
+    public static void main(String[] args) {
+     Scanner input = new Scanner (System.in);
+        System.out.println(" masukka angka 1");
+        int angka = input.nextInt();
+        System.out.println(" masukka angka 2");
+        int angka2 = input.nextInt();
+        
+        System.out.println(angka);
+
+}
+
+}
