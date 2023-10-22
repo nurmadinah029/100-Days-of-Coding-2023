@@ -1,0 +1,13 @@
+package ISC;
+
+public class Hari14 {
+    public static void main(String[] args) {
+    
+    int nilai = 95;
+    while (nilai <= 100) {
+            System.out.println(nilai);
+            nilai++;
+    
+}
+}
+}
