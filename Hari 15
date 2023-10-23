@@ -1,0 +1,19 @@
+package ISC;
+import java.math.BigInteger;
+public class Hari15 {
+    public static void main(String[] args) {
+    BigInteger nilaiA = new BigInteger("123000");
+    BigInteger nilaiB = new BigInteger("129000");
+    BigInteger nilaiC = new BigInteger("153000");
+    
+    BigInteger hasil1 = nilaiA.add(nilaiB);
+    BigInteger hasil2 = nilaiB.gcd(nilaiC);
+    BigInteger hasil3 = nilaiC.divide(nilaiA);
+
+    
+
+        System.out.println(hasil1 + "\n" + hasil2 + "\n" + hasil3 );    
+            
+    }
+    
+}
