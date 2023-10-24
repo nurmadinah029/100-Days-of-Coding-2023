@@ -1,0 +1,17 @@
+package latihan10;
+import java.math.BigDecimal;
+public class Main {
+    
+    public static void main(String[] args) {
+        BigDecimal BuahA = new BigDecimal (9.889);
+        BigDecimal BuahB = new BigDecimal (10.889);
+        BigDecimal BuahC = new BigDecimal (10.889);
+        
+        BigDecimal Gabungan1 = BuahB.add(BuahA);
+        BigDecimal Gabungan2 = BuahC.add(BuahB);
+        BigDecimal Gabungan3 = BuahA.add(BuahA);
+        
+        System.out.println(	BuahA + "\n" + Gabungan1 + "\n" + BuahB);
+    }
+    
+}
