@@ -1,0 +1,13 @@
+package latihan17;
+;
+public class Main {
+    
+    public static void main(String[] args) {
+        String TotalBuah = "50";
+        String TotalKue = "40";
+        int TotalInt = Integer.parseInt(TotalBuah);
+        double TotalDoble = Double.parseDouble(TotalKue);
+        
+        System.out.println("Total Buah =\t" +TotalBuah +"\n"+ "Total Kue = \t" + TotalKue );
+    }
+}
