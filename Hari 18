@@ -1,0 +1,12 @@
+package latihan18;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        int angkaMatematika = 97;
+        String angka1 = Integer.toString(angkaMatematika);
+        double angkaDouble = 38.9001;
+        String angka2 = Double.toString(angkaDouble);
+        System.out.println("jika kita menggabungkan nilai1 dan Nilai2 maka di akan menghasilakan\n"+angka1+angka2);
+    }
+}
