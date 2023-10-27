@@ -1,0 +1,31 @@
+package ISC;
+
+public class Hari19 {
+    public static void main(String[] args) {
+        
+ //Deklarasi Variabel
+    String nama,NoAlamat;
+    int angka,angkatan;
+    char JenisKelamin;
+    double Ipk;
+    
+  //Inisialisasi Variabel
+    String Nama = "Nurmadinah";
+    String Prodi = "Teknik informatika";
+    int umur = 18;
+    float beratBadan = 50.5f;
+    double tinggiBadan = 150.5;
+        System.out.println("Nama =" + Nama+"\n" + "Prodi =" + Prodi+"\n"+ "umur =" + umur+"\n" + "berat badan =" + beratBadan +"\n"+ "tinggi badan =" + tinggiBadan );
+    
+ //Update variabel
+   nama = "nurmadinah";
+   NoAlamat = "02";
+   angkatan = 2023;
+   JenisKelamin = 'p';
+   Ipk = 4.5;
+        System.out.println(nama+"\n"+NoAlamat+"\n"+angkatan+"\n"+JenisKelamin+"\n"+Ipk);
+          
+    
+    }
+    
+}
