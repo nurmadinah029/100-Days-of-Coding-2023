@@ -1,0 +1,18 @@
+package ISC;
+public class Hari20 {
+  
+    public static void main(String[] args) {
+        
+    
+    // Mendeklarasikan variabel final
+        final int umur = 18;
+        final double uang = 3.900;
+        final String pesanan = "ketrin";
+
+
+        // Menampilkan nilai variabel final
+        System.out.println("Umur = " + umur);
+        System.out.println("Nilai uang = " + uang);
+        System.out.println("Pesanan = " + pesanan);
+    }
+}
