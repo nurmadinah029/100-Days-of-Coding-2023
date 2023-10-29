@@ -1,0 +1,22 @@
+public class Hari21 {
+    public static void main(String[] args) {
+    
+    Scanner dina = new Scanner(System.in);{
+            System.out.print(" nama = ");
+            String nama = dina.next();
+            
+            System.out.print(" kelas = ");
+            String kelas = dina.next();
+            
+            System.out.print(" umur = ");
+            int umur = dina.nextInt();
+            
+            System.out.print(" kalimat = ");
+            String kalimat = dina.next();
+            
+
+            
+    
+    }   
+}
+}       
