@@ -1,0 +1,22 @@
+package ISC;
+
+import java.util.Scanner;
+
+public class Hari22 {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int panjang,lebar,luas;
+        System.out.println("panjang = ");panjang = input.nextInt();
+        System.out.println("lebar =");lebar = input.nextInt();
+        luas = panjang*lebar;
+        System.out.println("luas = "+luas);
+        
+        
+    }
+        
+    
+}
+       
+        
+    
