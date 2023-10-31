@@ -1,0 +1,30 @@
+package Hari23;
+import java.util.Scanner;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner impor = new Scanner(System.in);
+        System.out.print("angka =");
+        
+        int angka = impor.nextInt();
+        System.out.print("+");
+        angka += impor.nextInt();
+        System.out.println(angka);
+        
+        System.out.print("*");
+        angka *= impor.nextInt();
+        System.out.println(angka);
+        
+        System.out.print("%");
+        angka %= impor.nextInt();
+        System.out.println(angka);
+        
+        
+        
+        
+    }
+}
+
+        
+        
