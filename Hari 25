@@ -1,0 +1,16 @@
+package Hari25;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+boolean Nurmadinah = false;
+boolean Nurfadilah = true;
+boolean NurniaRinah = false;        
+        
+boolean hasilOr = Nurmadinah || Nurfadilah && NurniaRinah ;      
+        
+        System.out.println(hasilOr);
+        
+    }
+}
