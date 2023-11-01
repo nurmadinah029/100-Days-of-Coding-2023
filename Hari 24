@@ -1,0 +1,17 @@
+package Hari24;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        byte nilai1 =89;
+        byte nilai2 =90;
+        byte nilai3 =70;
+        
+        boolean nilai =(nilai1 == nilai2);
+        boolean bilangan = (nilai3 != nilai2);
+        
+        System.out.println(nilai);
+        System.out.println(bilangan);
+}
+}
