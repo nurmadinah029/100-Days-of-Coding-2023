@@ -1,16 +1,15 @@
-package Hari25;
+package Hari22;
 
 public class Main {
     
     public static void main(String[] args) {
         
-boolean Nurmadinah = false;
-boolean Nurfadilah = true;
-boolean NurniaRinah = false;        
+int operasi1 = 67;
+int operasi2 = 56;
         
-boolean hasilOr = Nurmadinah || Nurfadilah && NurniaRinah ;      
-        
-        System.out.println(hasilOr);
+
+boolean hasil = (operasi1 ==80) || (operasi2<10);
+        System.out.println(hasil);
         
     }
 }
