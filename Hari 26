@@ -1,0 +1,23 @@
+package Hari26;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        boolean Lulus= true;
+        boolean TidakLulus = false;
+        
+        if (Lulus && TidakLulus ) {
+            
+            System.out.println(" Anda dinyatakan Lulus silahkan melakukan pemdaftaran ulang ");
+            
+        } else if (Lulus || TidakLulus){
+            System.out.println(" Informasi penetapan Anda sebagai penerima KIP Kuliah berikut masih belum final, sewaktu-waktu dapat berubah/dibatalkan. ");
+    } else {
+        System.out.println("mungkin sekara bukan takdirmu ");
+    
+        
+        
+    }
+    }
+}
