@@ -1,0 +1,16 @@
+package Hari27;
+
+import java.util.Scanner;
+
+public class  Main {
+    public static void main(String[] args) {
+        double nilai = 74;
+        if (nilai >= 70) {
+            System.out.println("lulus");
+        }else if(nilai < 71);
+             System.out.println("tidak lulus");   
+        }
+    }
+
+        
+    
