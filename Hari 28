@@ -1,0 +1,17 @@
+package Hari28;
+
+import java.util.Scanner;
+
+public class  Main {
+    public static void main(String[] args) {
+        int angka = 50;
+
+        if (angka > 35) {
+            System.out.println("Angka 50 lebih besar ");
+        } else if (angka < 7) {
+            System.out.println("Angka 50 lebih kecil ");
+        } else {
+            System.out.println("Angka sama dengan 50");
+        }
+    }
+}
