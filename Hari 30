@@ -1,0 +1,33 @@
+package Hari30;
+public class  Main {
+    public static void main(String[] args) {
+        String day = "Selasa";
+
+        switch (day) {
+            case "Senin":
+                System.out.println("Ini hari Senin");
+                break;
+            case "Selasa":
+                System.out.println("Ini hari Selasa");
+                break;
+            case "Rabu":
+                System.out.println("Ini hari Rabu");
+                break;
+            case "Kamis":
+                System.out.println("Ini hari Kamis");
+                break;
+            case "Jumat":
+                System.out.println("Ini hari Jumat");
+                break;
+            case "Sabtu":
+                System.out.println("Ini hari Sabtu");
+                break;
+            case "Minggu":
+                System.out.println("Ini hari Minggu");
+                break;
+            default:
+                System.out.println("Hari yang tidak menyenangka ");
+        }
+    }
+}
+
