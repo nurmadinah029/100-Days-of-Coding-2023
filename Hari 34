@@ -1,0 +1,15 @@
+package Hari34;
+import java.util.ArrayList;
+public class  Main {
+    public static void main(String[] args) {
+      
+        // Deklarasi dan inisialisasi array objek
+        String[] names = {"dina", "rina", "dila", "madinah"};
+
+        // Menggunakan perulangan for-each untuk mengiterasi array objek
+        for (String name : names) {
+            System.out.println(name);
+        }
+    }
+    
+}
