@@ -1,0 +1,30 @@
+package Hari37;
+import java.util.Scanner;
+public class  Main {
+    public static void main(String[] args) {
+        
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Masukkan nama Anda: ");
+        String nama = scanner.nextLine();
+
+        System.out.print("Masukkan umur Anda: ");
+        int umur = scanner.nextInt();
+
+        System.out.println("Halo, " + nama + "! Umur Anda adalah " + umur + " tahun.");
+
+        scanner.close();
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
