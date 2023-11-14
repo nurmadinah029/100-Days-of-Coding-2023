@@ -3,17 +3,17 @@ import java.util.Scanner;
 public class  Main {
     public static void main(String[] args) {
         
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.print("Masukkan nama Anda: ");
-        String nama = scanner.nextLine();
+        String nama = input.nextLine();
 
         System.out.print("Masukkan umur Anda: ");
-        int umur = scanner.nextInt();
+        int umur = input.nextInt();
 
         System.out.println("Halo, " + nama + "! Umur Anda adalah " + umur + " tahun.");
 
-        scanner.close();
+        input.close();
     }
 }
 
