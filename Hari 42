@@ -1,0 +1,18 @@
+package ISC;
+import java.util.Scanner;
+public class Hari42 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("Masukkan Panjang = ");
+        double panjang = input.nextDouble();
+        
+        System.out.println("Masukkan Lebar = ");
+        double Lebar = input.nextDouble();
+        
+        double luas = panjang*Lebar;
+        
+        System.out.println("Luas persegi panjang adalah = "+luas);
+    }
+    
+}
