@@ -1,0 +1,23 @@
+package latihan;
+
+import java.util.Scanner;
+
+public class latihan001 {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Input Nilai yang Anda Inginkan: ");
+        int nilai = input.nextInt();
+
+        System.out.println("Nilai yang di Inputkan adalah: " + nilai);
+
+        if (nilai % 2 == 0) {
+            System.out.print("angka " + nilai + " adalah genap");
+
+        } else {
+            System.out.print("angka " + nilai + " adalah ganjil");
+        }
+    }
+
+}
