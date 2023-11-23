@@ -1,0 +1,30 @@
+package latihan;
+
+import java.util.Scanner;
+
+public class Latihan003 {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("input a: ");
+        int a = input.nextInt();
+
+        System.out.print("input b: ");
+        int b = input.nextInt();
+
+        System.out.print("hasilnya adalah ");
+        int hasil = a + b;
+        
+
+        if (hasil % 2 == 0) {
+            System.out.print("hasil penjumlahan a+b adalah genap sehingga nilainya adalah: ");
+            System.out.print(hasil +1);
+        } else {
+            System.out.print("hasil penjumlahan a+b adalah ganjil sehingga nilainya adalah: ");
+            System.out.print(hasil +2);
+        }
+
+    }
+
+}
