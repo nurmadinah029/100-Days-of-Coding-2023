@@ -1,0 +1,31 @@
+package latihan;
+
+public class Latihan00001 {
+
+    public static void main(String[] args) {
+        System.out.println("==========tugas ke 1==========");
+        String[] namaHewan = {"kucing", "anjing", "kelinci", "burung", "kuda", "buaya", "gajah", "harimau", "singa", "ular","bebek"};
+        for (int c = 1; c < namaHewan.length; c++) {
+            System.out.println("hewan ke-"+c+"  "+ namaHewan[c]);
+        }
+        
+        System.out.println("============================================");
+        System.out.println("==========tugas ke 2==========");
+        
+        int[] angkaGanjil = {1,3,5,7,9,11,13,15,17,19};
+        System.out.println("angka ganjil =");
+        for (int i = 0; i < angkaGanjil.length; i++) {
+        System.out.println(angkaGanjil[i]+"");
+        }
+        System.out.println();
+        
+        int hasilJumlah = 0;
+        for (int i = 0; i < 10; i++) {
+        hasilJumlah +=angkaGanjil[i];      
+            }
+            System.out.println("hasil jumlah "+ hasilJumlah);   
+            
+        }
+        }
+    
+        
