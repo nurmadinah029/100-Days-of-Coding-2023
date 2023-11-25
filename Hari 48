@@ -1,0 +1,20 @@
+package ISC;
+public class Hari48 {
+    public static void main(String[] args) {
+        String[] warna = {"Merah", "Kuning", "Hijau"};
+        int i = 0;
+        
+        while (true) {
+            System.out.println("Lampu: " + warna[i]);
+            
+            try {
+                Thread.sleep(2000); 
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            
+            i = (i + 1) % warna.length;
+        }
+    }
+}
+    
