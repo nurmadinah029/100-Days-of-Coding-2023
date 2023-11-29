@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class dina001 {
+    
+    public static void main(String[] args) {
+        greetAndMultiply();
+    }
+
+    public static void greetAndMultiply() {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Masukkan nama: ");
+        String nama = scanner.nextLine();
+        
+        System.out.print("Masukkan umur: ");
+        int angka1 = scanner.nextInt();
+        
+        System.out.print("Masukkan tangal lahir: ");
+        int angka2 = scanner.nextInt();
+        
+        int hasil = angka1 * angka2;
+        
+        System.out.println("Hallo, " + nama + "! Hasil perkalian dari " + angka1 + " dan " + angka2 + " adalah " + hasil);
+    }
+}
