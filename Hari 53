@@ -1,0 +1,12 @@
+package ISC;
+public class Hari53 {
+    public static void main(String[] args) {
+         String data = "kamu lagi apa???";
+        printData(data);
+    }
+
+    public static void printData(String data) {
+        System.out.println(data);
+    }
+}
+    
