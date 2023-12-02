@@ -1,10 +1,31 @@
-Hari ke 55
+public class Main {
+    
+    public static void main(String[] args) {
+        System.out.println("hay semua");
+    
+        String name = "Nurmadinah";
+        System.out.println("Nama: " + name);
 
-1. Futri 
-https://github.com/futriadrianaaksar/100-Days/blob/main/Day_55.java
+        Integer age = Integer.valueOf(25);
+        System.out.println("Usia: " + age);
 
-2. Baharuddin
-https://github.com/rimurutempest00/100days/blob/main/day55.java
+        Double height = Double.valueOf(175.5);
+        System.out.println("Tinggi: " + height);
 
-3. Armawan
-https://github.com/Armawan02/100-Days/blob/main/days55.java
+        // Menambahkan tipe data non-primitif
+        Boolean isStudent = Boolean.valueOf(true);
+        System.out.println("Status Mahasiswa: " + isStudent);
+
+        Character firstInitial = Character.valueOf('N');
+        System.out.println("Inisial Pertama: " + firstInitial);
+
+        Float gpa = Float.valueOf(3.75f);
+        System.out.println("IPK: " + gpa);
+
+        Long studentID = Long.valueOf(20230001L);
+        System.out.println("ID Mahasiswa: " + studentID);
+
+        Short semester = Short.valueOf((short) 2);
+        System.out.println("Semester: " + semester);
+}
+}
