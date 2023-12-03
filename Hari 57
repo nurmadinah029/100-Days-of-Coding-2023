@@ -1,0 +1,11 @@
+package Hari57;
+public class Main {
+public static void main(String[] args){
+    String n ="hallo!";
+    char c1 = n.charAt(0);
+    char c2 = n.charAt(3);
+    
+    System.out.println("karakter 1:" + c1);
+    System.out.println("karakter 1:" + c2);
+ }
+}
