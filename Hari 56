@@ -3,13 +3,39 @@ package Hari56;
 public class Main {
     
     public static void main(String[] args) {
-        String name = "dina";
-        String greeting = sayHello(name);
-        System.out.println(greeting);
-    }
+        int a = 10;
+        int b = 5;
 
-    public static String sayHello(String name) {
-        String message = "Hello, " + name + "!";
-        return message;
+        int penjumlahan = tambah(a, b);
+        int pengurangan = kurang(a, b);
+        int perkalian = kali(a, b);
+        int pembagian = bagi(a, b);
+        int modulus = modulo(a, b);
+
+        System.out.println("Penjumlahan: " + penjumlahan);
+        System.out.println("Pengurangan: " + pengurangan);
+        System.out.println("Perkalian: " + perkalian);
+        System.out.println("Pembagian: " + pembagian);
+        System.out.println("Modulus: " + modulus);
+    }
+    public static Integer tambah(Integer a, Integer b) {
+        int hasil = a + b;
+        return hasil;
+    }
+    public static Integer kurang(Integer a, Integer b) {
+        int hasil = a - b;
+        return hasil;
+    }
+    public static Integer kali(Integer a, Integer b) {
+        int hasil = a * b;
+        return hasil;
+    }
+    public static Integer bagi(Integer a, Integer b) {
+        int hasil = a / b;
+        return hasil;
+    }
+    public static Integer modulo(Integer a, Integer b) {
+        int hasil = a % b;
+        return hasil;
     }
 }
