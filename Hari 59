@@ -1,0 +1,14 @@
+package Hari59;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner kata = new Scanner(System.in);
+        System.out.print("Masukkan kue:");
+        
+        String kue = kata.nextLine();
+        String n =  kue.toUpperCase();
+        System.out.println("Hasil Perbaikan:"+ n);
+    }
+    
+}
