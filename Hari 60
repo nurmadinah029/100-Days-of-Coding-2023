@@ -1,0 +1,14 @@
+package Hari60;
+public class Main {
+    
+    public static void main(String[] args) {
+        String Makanan = "Ada banyak makanan dan kue di kantin";
+        String  n= "kue";
+
+        if (Makanan.contains(n)) {
+            System.out.println("Karakter " + n + " ditemukan ");
+        } else {
+            System.out.println("Karakter " + n +  " tidak ditemukan ");
+        }
+    }
+}
