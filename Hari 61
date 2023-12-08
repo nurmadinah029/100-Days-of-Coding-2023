@@ -1,0 +1,12 @@
+package Hari61;
+public class Main {
+    
+    public static void main(String[] args) {
+        String namaDepan = "Meri";
+        String namaBelakang = "iii";
+        String tambahan = "Khairil";
+
+        String gabungan = namaDepan + namaBelakang + tambahan;
+        System.out.println(gabungan);
+    }
+}
