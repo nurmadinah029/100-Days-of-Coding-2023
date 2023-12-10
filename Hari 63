@@ -1,0 +1,18 @@
+package Hari63;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner masuk = new Scanner(System.in);
+        String Buah = "Semangka,mangga";
+        
+        System.out.print("nama 2 buah: ");
+        String pengguna = masuk.nextLine();
+        if(pengguna.equals(Buah)){
+            System.out.println("Berhasil");
+        }else{
+            System.out.println("Gagal");
+        }
+    }
+}
+    
