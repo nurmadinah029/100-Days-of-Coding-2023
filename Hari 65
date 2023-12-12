@@ -1,0 +1,21 @@
+package Hari65;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        System.out.println("Jangan lupa ngoding");  
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Masukkan string pertama: ");
+        String string1 = input.nextLine();
+
+        System.out.print("Masukkan string kedua: ");
+        String string2 = input.nextLine();
+
+        if (string1.equalsIgnoreCase(string2)) {
+            System.out.println("Kedua string sama.");
+        } else {
+            System.out.println("Kedua string berbeda.");
+        }
+    }
+}
