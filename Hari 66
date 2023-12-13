@@ -1,0 +1,17 @@
+package Hari66;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+       Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Masukkan nama depan: ");
+        String NmDpn = scanner.nextLine();
+
+        System.out.print("Masukkan nama belakang: ");
+        String NmBlk = scanner.nextLine();
+
+        String KataSambung = String.format("Halo, %s %s!", NmDpn, NmBlk);
+        System.out.println(KataSambung);
+    }
+}
