@@ -1,0 +1,17 @@
+package Hari67;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Masukkan nama: ");
+        String input = scanner.nextLine();
+        System.out.print("Masukkan posisi karakter yang ingin dihapus: ");
+        int posisi = scanner.nextInt();
+        StringBuilder stringBuilder = new StringBuilder(input);
+        stringBuilder.deleteCharAt(posisi);
+
+        System.out.println("Setelah delete: " + stringBuilder);
+    }
+}
