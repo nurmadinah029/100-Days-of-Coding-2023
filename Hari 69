@@ -1,0 +1,21 @@
+package Hari69;
+public class Main {
+    public static boolean isPalindrome(String str) {
+        int left = 3;
+        int right = str.length() - 3;
+        while (left < right) {
+            if (str.charAt(left) != str.charAt(right)) {
+                return false;
+            }left++;
+            right--;
+        }
+        return true;
+    }
+    public static void main(String[] args) {
+        String nama1= "dina";
+        String nama2= "Nur madinah";
+        
+        System.out.println(nama1 + " adalah palindrome: " + isPalindrome(nama1));
+        System.out.println(nama2 + " adalah palindrome: " + isPalindrome(nama2));
+    }
+}
