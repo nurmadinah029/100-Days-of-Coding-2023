@@ -1,0 +1,22 @@
+package com.mycompany.projrk01;
+public class kotak {
+    String nama;
+    String nim;
+    int umur;
+    String alamat;
+    public void cetak(){
+        System.out.println("nilai-nilai dalam kotak");
+        System.out.println("__________________________");
+        System.out.println("nama: "+nama );
+        System.out.println("nim: "+nim);
+        System.out.println("umur: "+umur);
+        System.out.println("almat: "+alamat);
+        System.out.println("__________________________");
+    }
+}
+
+
+/*Dengan menggunakan class Kotak ini, kita dapat membuat objek kotak dan mengisi nilai atributnya.
+Kemudian, kita dapat memanggilmetode cetak() untuk mencetak nilai-nilai atribut dari objek kotak tersebut.*/
+
+
