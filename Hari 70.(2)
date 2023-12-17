@@ -1,0 +1,12 @@
+package com.mycompany.projrk01;
+public class Hari70 {
+    public static void main(String[] args) {
+        kotak kotakA = new kotak();
+        kotakA.nama = "Nurmadinah";
+        kotakA.nim = "D0223001";
+        kotakA.umur = 18;
+        kotakA.alamat = "Sirindu";
+        kotakA.cetak();
+    }
+    
+}
