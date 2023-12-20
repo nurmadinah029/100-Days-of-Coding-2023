@@ -1,0 +1,22 @@
+package hari72;
+
+public class dinah {
+    private int outerVariable;
+
+    public dinah(int value) {
+        outerVariable = value;
+    }
+
+   
+    public class InnerClass {
+        public void display() {
+            System.out.println("Nilai variabel luar: " + outerVariable);
+        }
+    }
+
+    public static void main(String[] args) {
+        dinah outer = new dinah(10);
+        dinah.InnerClass inner = outer.new InnerClass();
+        inner.display();
+    }
+}
