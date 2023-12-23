@@ -1,0 +1,23 @@
+package com.mycompany.belajar0001;
+import java.util.Arrays;
+public class Belajar0001 {
+
+    public static void main(String[] args) {
+   // Vektor A
+        int[] vectorA = {1, 2, 3};
+
+        // Vektor B
+        int[] vectorB = {4, 5, 6};
+
+        // Penjumlahan vektor
+        int[] sum = new int[vectorA.length];
+        for (int i = 0; i < vectorA.length; i++) {
+            sum[i] = vectorA[i] + vectorB[i];
+        }
+
+        // Mencetak vektor A, B, dan hasil penjumlahan
+        System.out.println("Vektor A: " + Arrays.toString(vectorA));
+        System.out.println("Vektor B: " + Arrays.toString(vectorB));
+        System.out.println("Hasil penjumlahan vektor: " + Arrays.toString(sum));
+    }
+}
