@@ -1,0 +1,23 @@
+package hari77;
+import java.util.ArrayList;
+import java.util.Vector;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<String> sapa = new ArrayList<String>();
+        sapa.add("hallo!");
+        sapa.add("aku dinah");
+        
+        for (String i : sapa) {
+            System.out.println(i);
+        }
+        
+        Vector<String> suka = new Vector<String>();
+        suka.add("aku sangat suka dengan");
+        suka.add("senja,,,,(⁠｡⁠♡⁠‿⁠♡⁠｡⁠)");
+        
+        for (String a : suka) {
+            System.out.println(a);
+        }
+    }
+}
