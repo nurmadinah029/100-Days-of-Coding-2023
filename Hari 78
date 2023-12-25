@@ -1,0 +1,22 @@
+package hari71;
+import java.util.ArrayList;
+import java.util.Vector;
+public class Main {
+    public static void main(String[] args) {
+    ArrayList<Object> arrayList = new ArrayList<>();
+
+
+        arrayList.add("Apple");
+        arrayList.add(10);
+        arrayList.add(3.14);
+        arrayList.add(true);
+        System.out.println("ArrayList Elements: " + arrayList);
+        
+        Vector<Object> vector = new Vector<>();
+        vector.add("Red");
+        vector.add(20);
+        vector.add(2.718);
+        vector.add(false);
+        System.out.println("Vector Elements: " + vector);
+    }
+}
