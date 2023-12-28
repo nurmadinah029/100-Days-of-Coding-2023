@@ -1,0 +1,57 @@
+package hari81;
+import java.util.LinkedList;
+
+
+public class Main {
+    public static void main(String[] args) {
+        
+        LinkedList<String> linkedList = new LinkedList<>();
+
+        
+        linkedList.add("18 tahun");
+        linkedList.add("sirindu");
+        linkedList.add("sekian terimakasih");
+
+        
+        System.out.println("Isi LinkedList:");
+        for (String Nama : linkedList) {
+            System.out.println(Nama);
+        }
+
+        linkedList.addFirst("Nurmadinah");
+
+        linkedList.addLast("(⁠灬⁠º⁠‿⁠º⁠灬⁠)⁠♡");
+
+        System.out.println(" perubahan:");
+        for (String Nama : linkedList) {
+            System.out.println(Nama);
+        }
+
+        linkedList.remove("sekian terimakasih");
+
+        System.out.println("\n penghapusan:");
+        for (String Nama : linkedList) {
+            System.out.println(Nama);
+        }
+
+        
+        String firstElement = linkedList.getFirst();
+        String lastElement = linkedList.getLast();
+        System.out.println("\n pertama: " + firstElement);
+        System.out.println("terakhir: " + lastElement);
+
+  
+        linkedList.set(1, "Pineapple");
+
+        System.out.println("\n setelah perubahan:");
+        for (String nama : linkedList) {
+            System.out.println(nama);
+        }
+
+        int size = linkedList.size();
+        System.out.println("\n Ukuran : " + size);
+
+        boolean isEmpty = linkedList.isEmpty();
+        System.out.println("kosong? " + isEmpty);
+    }
+}
