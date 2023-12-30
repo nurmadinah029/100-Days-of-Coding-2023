@@ -1,0 +1,19 @@
+package hari71;
+public class Main {
+    public static void main(String[] args) {
+        
+        int[][][] array3D = new int[3][3][3];
+
+        array3D[0][0][0] = 1;
+        array3D[0][0][1] = 2;
+        array3D[0][0][2] = 3;
+        array3D[0][1][0] = 4;
+        array3D[0][1][1] = 5;
+        array3D[0][1][2] = 6;
+        array3D[0][2][0] = 7;
+        array3D[0][2][1] = 8;
+        array3D[0][2][2] = 9;
+        System.out.println("Elemen pada indeks [0][1][2]: " + array3D[0][1][2]);
+        System.out.println("Elemen pada indeks [2][2][1]: " + array3D[2][2][1]);
+        }
+}
