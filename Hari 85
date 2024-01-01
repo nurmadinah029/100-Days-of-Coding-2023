@@ -1,0 +1,17 @@
+package hari84;
+public class Main {
+    public static void main(String[] args) {
+        
+        String[] nama = new String[5];
+        nama[0] = "futri";
+        nama[1] = "nurmadinah";
+        nama[2] = "nur rahiman";
+        nama[3] = "Baharuddin";
+        nama[4] = "Armawan";
+        System.out.println(" nama-nama: ");
+        for (int i = 0; i < nama.length; i++) {
+            System.out.println(nama[i]);
+        }
+    }
+}
+
