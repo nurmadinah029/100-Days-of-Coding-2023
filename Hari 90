@@ -1,0 +1,22 @@
+package hari90;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+
+        // Mengambil input dari pengguna
+        System.out.print("Masukkan nama Anda: ");
+        String nama = scanner.nextLine();
+
+        System.out.print("Masukkan umur Anda: ");
+        int umur = scanner.nextInt();
+
+        // Menampilkan hasil input
+        System.out.println("Nama: " + nama);
+        System.out.println("Umur: " + umur);
+
+        // Menutup Scanner
+        scanner.close();
+    }
+}
