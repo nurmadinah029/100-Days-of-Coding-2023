@@ -1,0 +1,31 @@
+package hari91;
+public class Main {
+    
+    public static void main(String[] args) {
+    
+        StringBuffer stringBuffer = new StringBuffer();
+        stringBuffer.append("Nurmadinah");
+        stringBuffer.append("Sirindu");
+        stringBuffer.append("BalikPapan");
+
+        System.out.println("StringBuffer: " + stringBuffer);
+
+        stringBuffer.deleteCharAt(10);
+
+        System.out.println("StringBuffer after deletion: " + stringBuffer);
+
+        stringBuffer.insert(5, " Inserted");
+
+        System.out.println("StringBuffer after insertion: " + stringBuffer);
+
+        stringBuffer.reverse();
+
+        System.out.println("Reversed StringBuffer: " + stringBuffer);
+
+        int length = stringBuffer.length();
+        System.out.println("Length of StringBuffer: " + length);
+
+        String convertedString = stringBuffer.toString();
+        System.out.println("Converted String: " + convertedString);
+    }
+}
