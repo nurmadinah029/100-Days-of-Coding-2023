@@ -1,0 +1,33 @@
+package hari92;
+public class Main {
+    
+    public static void main(String[] args) {
+    
+        int[] arrayAngka = {10, 5, 8, 20, 15,45};
+
+        int jumlah = 0;
+        for (int angka : arrayAngka) {
+            jumlah += angka;
+        }
+        System.out.println("Jumlah semua elemen array: " + jumlah);
+
+        double rataRata = (double) jumlah / arrayAngka.length;
+        System.out.println("Rata-rata elemen array: " + rataRata);
+
+        int maksimum = arrayAngka[0];
+        for (int angka : arrayAngka) {
+            if (angka > maksimum) {
+                maksimum = angka;
+            }
+        }
+        System.out.println("Nilai maksimum dalam array: " + maksimum);
+ 
+        int minimum = arrayAngka[0];
+        for (int angka : arrayAngka) {
+            if (angka < minimum) {
+                minimum = angka;
+            }
+        }
+        System.out.println("Nilai minimum dalam array: " + minimum);
+    }
+}
