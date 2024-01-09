@@ -1,0 +1,27 @@
+package hari94;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner im = new Scanner(System.in);
+        String sentence = im.next();
+
+        String targetWord = "apa";
+
+        String boldSentence = boldSpecificWord(sentence, targetWord);
+
+        System.out.println(boldSentence);
+    }
+
+    private static String boldSpecificWord(String text, String targetWord) {
+      
+        int startIndex = text.indexOf(targetWord);
+        int endIndex = startIndex + targetWord.length();
+
+        String boldText = text.substring(0, startIndex) + "\033[1m" +
+                          text.substring(startIndex, endIndex) + "\033[0m" +
+                          text.substring(endIndex);
+
+        return boldText;
+    }
+}
