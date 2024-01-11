@@ -1,0 +1,27 @@
+package Tugas04;
+import java.util.HashMap;
+
+public class Hari96 {
+
+    public static void main(String[] args) {
+        HashMap<String,String> dataMahasiswa = new HashMap();       
+        dataMahasiswa.put("D022001", "dinah");
+        dataMahasiswa.put("D022002", "dila");
+        dataMahasiswa.put("D022003", "Rina");
+        dataMahasiswa.put("D022004", "daya");
+        dataMahasiswa.put("D022005", "waldi");
+        dataMahasiswa.put("D022006", "nini");
+        dataMahasiswa.put("D022007", "tiara");
+        dataMahasiswa.put("D022008", "kyt");
+        dataMahasiswa.put("D022009", "dyn");
+        
+        System.out.println( dataMahasiswa);
+        System.out.println( dataMahasiswa.isEmpty());
+        System.out.println( dataMahasiswa.values());
+        System.out.println( dataMahasiswa.keySet());
+        System.out.println( dataMahasiswa.size());
+ 
+        
+    }
+
+}
