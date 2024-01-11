@@ -1,0 +1,25 @@
+package Tugas04;
+
+import java.util.HashSet;
+
+public class Hari95 {
+
+    public static void main(String[] args) {
+        HashSet himpunamNIM = new HashSet();
+        himpunamNIM.add("D023001");
+        himpunamNIM.add("D023002");
+        himpunamNIM.add("D023003");
+        himpunamNIM.add("D023004");
+        himpunamNIM.add("D023005");
+        himpunamNIM.add("D023008");
+
+        System.out.println(himpunamNIM);
+
+        if (himpunamNIM.contains("D023001")) {
+            System.out.println("ada NIM: " + " D023001");
+        } else {
+            System.out.println("tidak NIM: " + " D023001");
+        }
+    }
+
+}
