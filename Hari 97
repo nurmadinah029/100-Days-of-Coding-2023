@@ -1,0 +1,17 @@
+package ISC;
+
+public class Hari97 {
+
+    public static void main(String[] args) {
+        int umur = 18;
+        UbahAngkaUmur(umur);
+        System.out.println(umur + "tahun, " + "bulan ini");
+    }
+
+    static void UbahAngkaUmur(int umur) {
+        umur = 19;
+        System.out.println(umur + "tahun, " + "bulan depan ");
+
+    }
+
+}
