@@ -1,0 +1,48 @@
+package Isc.newpackage;
+
+public class SpedaMotor1 {
+    //field
+    String warna;
+    String jenisTransmisi;
+    double kecepatan;
+    //method
+    void speedUp(double increment){
+        kecepatan = kecepatan + increment;
+        
+    }
+    void applybrakes(double decrement){
+        kecepatan = kecepatan-decrement;
+    }
+    void printStates(){
+        System.out.println("warna: "+warna +"\n jenisTransmisi: "+jenisTransmisi+"\n kecepatan: "+kecepatan);
+    }
+         
+}
+
+
+package Isc.newpackage;
+
+public class Hari98 {
+
+    public static void main(String[] args) {
+        SpedaMotor1 sm1 = new SpedaMotor1();
+        SpedaMotor1 sm2 = new SpedaMotor1();
+        SpedaMotor1 sm3 = new SpedaMotor1();
+        SpedaMotor1 sm4 = new SpedaMotor1();
+
+        sm1.speedUp(10);
+        sm2.speedUp(12);
+        sm1.applybrakes(12);
+        sm3.speedUp(8);
+        sm4.speedUp(25);
+        sm1.applybrakes(2);
+        sm4.applybrakes(12);
+
+        sm1.printStates();
+        sm2.printStates();
+        sm3.printStates();
+        sm4.printStates();
+
+    }
+
+}
