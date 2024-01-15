@@ -6,7 +6,7 @@ public class Hari100 {
 
         int angka1, angka2, angka3;
         double angka4, angka5, angka6;
-        Scanner im = new Scanner(System.in);
+
         angka1 = 23;
         angka2 = 34;
         angka3 = 43;
