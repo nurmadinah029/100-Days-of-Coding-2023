@@ -1,0 +1,28 @@
+package ISC;
+import java.util.Scanner;
+public class Hari99 {
+
+    public static void main(String[] args) {
+        System.out.println("BIODATA");
+        Scanner in = new Scanner(System.in);
+        System.out.print(" nama: ");
+        String Nama = in.next();
+        System.out.print(" umur: ");
+        int umur = in.nextInt();
+        System.out.print(" anak ke: ");
+        byte anakKe = in.nextByte();
+        System.out.print(" lama kuliah: ");
+        double Kl = in.nextDouble();
+        System.out.print(" Tinggi Badan: ");
+        float Tgb = in.nextFloat();
+        boolean Jalanjalan = true;
+        if (Jalanjalan) {
+            System.out.println("suka jalan-jalan");
+        }else{
+            System.out.println("tidak suka jalan-jalan");
+            
+        }
+               
+    }
+    
+}
