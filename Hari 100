@@ -1,7 +1,5 @@
 package ISC;
 
-import java.util.Scanner;
-
 public class Hari100 {
 
     public static void main(String[] args) {
