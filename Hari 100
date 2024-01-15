@@ -1,0 +1,53 @@
+package ISC;
+
+import java.util.Scanner;
+
+public class Hari100 {
+
+    public static void main(String[] args) {
+
+        int angka1, angka2, angka3;
+        double angka4, angka5, angka6;
+        Scanner im = new Scanner(System.in);
+        angka1 = 23;
+        angka2 = 34;
+        angka3 = 43;
+
+        angka4 = 32.6;
+        angka5 = 33.9;
+        angka6 = 44.7;
+
+        System.out.println("hasil jika 32.4 % 43 * 23 = " + angka4 % angka3 * angka1);
+
+        angka2 += angka3;
+        System.out.println("34 + 43= " + angka2);
+        angka3 -= angka1;
+        System.out.println("43 - 23= " + angka3);
+        angka1 *= angka3;
+        System.out.println("23 x 43= " + angka1);
+
+        if (angka4 >= angka3) {
+            System.out.println("angka lebih besar");
+        } else {
+            System.out.println("angka tidak lebih besar");
+        }
+
+        if (angka5 < angka6) {
+            System.out.println("angka kebih kecil");
+        } else {
+            System.out.println("tidak lebih kecil");
+        }
+
+        if (angka4 >= angka3 && angka5 < angka6) {
+            System.out.println("betul ajah");
+        } else {
+            System.out.println("ini salah ");
+        }
+        if (angka4 >= angka3 || angka5 < angka6) {
+            System.out.println("udah betul");
+        } else {
+            System.out.println("Sembarng");
+        }
+    }
+
+}
